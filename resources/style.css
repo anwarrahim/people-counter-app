@@ -25,13 +25,16 @@ button {
 }
 
 .save-btn{
-
+    display: block;
+    margin: 10px auto;
 }
 
 
 button:hover{
     box-shadow: 3px 3px black;
 }
+
+
 #reset-btn{
     color: black;
     font-size: 15px;

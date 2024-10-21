@@ -16,6 +16,11 @@ function reset(){
     document.getElementById("counter-num").innerText = count;
 }
 
+// save-btn
+
+function save(){
+
+}
 
 
 
