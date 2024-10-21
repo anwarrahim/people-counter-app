@@ -18,8 +18,10 @@ function reset(){
 
 // save-btn
 
-function save(){
+let savecount = document.getElementById("save-btn");
 
+function save(){
+    
 }
 
 
