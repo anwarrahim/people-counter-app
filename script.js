@@ -18,10 +18,10 @@ function reset(){
 
 // save-btn
 
-let savecount = document.getElementById("save-btn");
+let saveCount = document.getElementById("save-num");
 
 function save(){
-    
+    saveCount.textContent += count + " - "
 }
 
 
