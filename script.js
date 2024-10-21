@@ -23,6 +23,8 @@ let saveCount = document.getElementById("save-num");
 function save(){
     if (count > 0){
         saveCount.textContent += count + " - "
+        count = 0;
+        document.getElementById("counter-num").textContent = count;
     }
     else{
     let selectNum=  document.getElementById("select-num")
