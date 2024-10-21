@@ -21,7 +21,14 @@ function reset(){
 let saveCount = document.getElementById("save-num");
 
 function save(){
-    saveCount.textContent += count + " - "
+    if (count > 0){
+        saveCount.textContent += count + " - "
+    }
+    else{
+    let selectNum=  document.getElementById("select-num")
+        selectNum.textContent ="You cannot save ZERO";
+    }
+
 }
 
 
