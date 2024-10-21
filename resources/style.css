@@ -1,0 +1,34 @@
+
+body{
+    /*background-image: url("images/railway-staion.avif");*/
+
+
+    background: linear-gradient(90deg, #845ec2, #d65db1, #ff6f91,#ff9671 );
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+button:hover{
+    box-shadow: 3px 3px black;
+}
+#reset-btn{
+    color: black;
+    font-size: 15px;
+}
